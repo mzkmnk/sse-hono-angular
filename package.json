@@ -9,7 +9,9 @@
   },
   "scripts": {
     "dev:frontend": "pnpm --filter frontend run start",
-    "dev:backend": "pnpm --filter backend run dev"
+    "dev:backend": "pnpm --filter backend run dev",
+    "check:frontend": "pnpm biome check --write ./packages/frontend/src",
+    "check:backend": "pnpm biome check --write ./packages/backend/src"
   },
   "keywords": [],
   "author": "",
