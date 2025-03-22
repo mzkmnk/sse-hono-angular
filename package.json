@@ -17,5 +17,8 @@
   "packageManager": "pnpm@10.6.1",
   "dependencies": {
     "@angular/cli": "^19.2.4"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4"
   }
 }
