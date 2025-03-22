@@ -1,6 +1,6 @@
-import {MessagesService} from '@/app/messages.service';
-import {Component, inject, signal} from '@angular/core';
-import {FormsModule} from '@angular/forms';
+import { MessagesService } from '@/app/messages.service';
+import { Component, inject, signal } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
 	selector: 'app-root',

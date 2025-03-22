@@ -1,5 +1,11 @@
-import {environment} from '@/environments/environment';
-import {computed, Injectable, type Signal, signal, type WritableSignal,} from '@angular/core';
+import { environment } from '@/environments/environment';
+import {
+	Injectable,
+	type Signal,
+	type WritableSignal,
+	computed,
+	signal,
+} from '@angular/core';
 
 type Message = {
 	role: 'user' | 'assistant';

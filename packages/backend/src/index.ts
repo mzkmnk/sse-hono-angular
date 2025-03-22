@@ -1,7 +1,7 @@
-import {Hono} from 'hono';
-import {env} from 'hono/adapter';
-import {cors} from 'hono/cors';
-import {streamSSE} from 'hono/streaming';
+import { Hono } from 'hono';
+import { env } from 'hono/adapter';
+import { cors } from 'hono/cors';
+import { streamSSE } from 'hono/streaming';
 import OpenAI from 'openai';
 
 const app = new Hono()
