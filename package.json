@@ -8,7 +8,8 @@
     "npm": "please_use_pnpm_instead"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:frontend": "pnpm --filter frontend run start",
+    "dev:backend": "pnpm --filter backend run dev"
   },
   "keywords": [],
   "author": "",
