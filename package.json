@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "engines": {
-    "pnpm": "7.20.0",
+    "pnpm": "10.6.1",
     "npm": "please_use_pnpm_instead"
   },
   "scripts": {
@@ -13,5 +13,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.6.1"
+  "packageManager": "pnpm@10.6.1",
+  "dependencies": {
+    "@angular/cli": "^19.2.4"
+  }
 }
