@@ -20,7 +20,6 @@ const app = new Hono()
 	.post(
 		'/stream/messages',
 		zValidator('json', schema, (result, c) => {
-			console.log(result);
 			if (!result.success) {
 				return c.json(
 					{
