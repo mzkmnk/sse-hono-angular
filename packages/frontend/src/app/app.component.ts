@@ -45,6 +45,8 @@ export class AppComponent {
 	messages = this.messageService.messages;
 
 	submit(): void {
+		if (this.userMessage() === '') return;
+
 		this.messageService.submit(this.userMessage());
 		this.userMessage.set('');
 	}
